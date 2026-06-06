@@ -22,7 +22,7 @@ class BunkerUpInfoMod(loader.Module):
     strings = {"name": "BUpinfo"}
     
     def __init__(self):
-        self.URL_RAW = "https://raw.githubusercontent.com/devdreamix/BUpinfo/main/BUpinfo.py"
+        self.URL_RAW = "https://raw.githubusercontent.com/devdreamhost/BUpinfo/refs/heads/main/main.py"
         
         self._bot_id = 5813222348
         self._lock = asyncio.Lock()
